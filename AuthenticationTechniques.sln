@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookieBased", "CookieBased\CookieBased.csproj", "{5472F695-EC77-41C9-9D0B-AC3B3A50134F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TokenBased", "TokenBased\TokenBased.csproj", "{69052896-5B0C-4E8F-B8FD-2CB5BE3AFABE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemoryDatabase", "InMemoryDatabase\InMemoryDatabase.csproj", "{9DCCF6D7-AB19-46E6-887E-A73A0745FBC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsBased", "WindowsBased\WindowsBased.csproj", "{A142A333-0127-4D61-8286-2C69205CB408}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolicyBased", "PolicyBased\PolicyBased.csproj", "{1BC8BA12-F65D-444C-B83B-7AFF97533FCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenID_OAuth", "OpenID_OAuth\OpenID_OAuth.csproj", "{767EE523-3AEC-4351-8669-BB4409CB46C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoFactor", "TwoFactor\TwoFactor.csproj", "{7CE88B53-2B11-4E7E-AFED-1B229D5BC4F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5472F695-EC77-41C9-9D0B-AC3B3A50134F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5472F695-EC77-41C9-9D0B-AC3B3A50134F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5472F695-EC77-41C9-9D0B-AC3B3A50134F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5472F695-EC77-41C9-9D0B-AC3B3A50134F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69052896-5B0C-4E8F-B8FD-2CB5BE3AFABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69052896-5B0C-4E8F-B8FD-2CB5BE3AFABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69052896-5B0C-4E8F-B8FD-2CB5BE3AFABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69052896-5B0C-4E8F-B8FD-2CB5BE3AFABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DCCF6D7-AB19-46E6-887E-A73A0745FBC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DCCF6D7-AB19-46E6-887E-A73A0745FBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DCCF6D7-AB19-46E6-887E-A73A0745FBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DCCF6D7-AB19-46E6-887E-A73A0745FBC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A142A333-0127-4D61-8286-2C69205CB408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A142A333-0127-4D61-8286-2C69205CB408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A142A333-0127-4D61-8286-2C69205CB408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A142A333-0127-4D61-8286-2C69205CB408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC8BA12-F65D-444C-B83B-7AFF97533FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC8BA12-F65D-444C-B83B-7AFF97533FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC8BA12-F65D-444C-B83B-7AFF97533FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC8BA12-F65D-444C-B83B-7AFF97533FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{767EE523-3AEC-4351-8669-BB4409CB46C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767EE523-3AEC-4351-8669-BB4409CB46C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767EE523-3AEC-4351-8669-BB4409CB46C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767EE523-3AEC-4351-8669-BB4409CB46C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE88B53-2B11-4E7E-AFED-1B229D5BC4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE88B53-2B11-4E7E-AFED-1B229D5BC4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE88B53-2B11-4E7E-AFED-1B229D5BC4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE88B53-2B11-4E7E-AFED-1B229D5BC4F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0A7CD1C-2F83-4424-BD45-A4B091111E2A}
+	EndGlobalSection
+EndGlobal
